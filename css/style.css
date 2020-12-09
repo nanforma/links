@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   #background-repeat: repeat;
   #background-size: cover;
-  -moz-background-size: cover;}
+  -moz-background-size: cover;
 }
 
 a
@@ -103,26 +103,38 @@ h1 {
   box-shadow: 0 20px 0 -10px rgba(0, 0, 0,0.15);
 }
 
-.links-d .link:hover {
+  .links-d .link:hover {
   color: #fff;
   background-color: #222;
   -webkit-box-shadow:  0 20px 0 -10px rgba(29, 191, 114,0.9);
   -moz-box-shadow:  0 20px 0 -10px rgba(29, 191, 114,0.9);
   box-shadow: 0 20px 0 -10px rgba(29, 191, 114,0.9);
 }
-  
+
+.links-d .link:hover .a {
+  display: none;
+}
+
+  .links-d .link .b {
+  display: none;
+}
+
+  .links-d .link:hover .b {
+  display: inline;
+}
+
 .shake {
-	animation: shake-animation 4.72s ease infinite;
+	animation: shake-animation 4.5s ease infinite;
 	transform-origin: 50% 50%;
   }
 
   @keyframes shake-animation {
 	 0% { transform:translate(0,0) }
-	1.78571% { transform:translate(5px,0) }
+	1.78571% { transform:translate(3px,0) }
 	3.57143% { transform:translate(0,0) }
-	5.35714% { transform:translate(5px,0) }
+	5.35714% { transform:translate(-3px,0) }
 	7.14286% { transform:translate(0,0) }
-	8.92857% { transform:translate(5px,0) }
+	8.92857% { transform:translate(3px,0) }
 	10.71429% { transform:translate(0,0) }
 	100% { transform:translate(0,0) }
   }
