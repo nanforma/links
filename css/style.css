@@ -124,7 +124,7 @@ h1 {
 }
 
 .shake {
-	animation: shake-animation 4.5s ease infinite;
+	animation: shake-animation 3.5s ease infinite;
 	transform-origin: 50% 50%;
   }
 
