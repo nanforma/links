@@ -179,7 +179,7 @@ article [data-links] li a [data-button-bg] {
 [data-skin=SKIN_NAME] [data-profile-container] [data-username] {
   color: #fff;
   text-align: left;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 0.95rem;
 }
 [data-skin=SKIN_NAME] [data-profile-container] [data-description] {
@@ -212,7 +212,7 @@ article [data-links] li a [data-button-bg] {
 }
 [data-skin=SKIN_NAME] [data-links] li a [data-button-label] {
   color: transparent;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 0.9;
   font-size: 4rem;
   transition: all 0.2s;
@@ -295,7 +295,7 @@ article [data-links] li a [data-button-bg] {
 [data-skin=SKIN_NAME] [data-links].active li a:hover [data-button-label] {
   transition-delay: 0s !important;
   color: transparent;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 0.9;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
 }
