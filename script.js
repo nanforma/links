@@ -87,11 +87,11 @@ new Vue({
 					label: "Dribbble"
 				},
 				{
-					url: "https://www.behance.net/thirtysat",
+					url: "https://behance.net/thirtysat",
 					label: "Behance"
 				},
 				{
-					url: "https://www.instagram.com/thirtysat/",
+					url: "https://instagram.com/thirtysat/",
 					label: "Instagram"
 				},
 				{
