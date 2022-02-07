@@ -100,7 +100,7 @@ new Vue({
 				},
 				{
 					url: "https://forms.gle/oVuazdsyZ8dF8f447",
-					label: "Lets Get Work :)"
+					label: "Let's Get Work :)"
 				}
 			]
 		}
