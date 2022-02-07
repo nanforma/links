@@ -294,4 +294,8 @@ article [data-links] li a [data-button-bg] {
 }
 [data-skin=SKIN_NAME] [data-links].active li a:hover [data-button-label] {
   transition-delay: 0s !important;
+  color: transparent;
+  font-weight: 700;
+  line-height: 0.9;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
 }
