@@ -75,7 +75,7 @@ new Vue({
 					text: "thirtysat"
 				},
 				description: {
-					text: "Freelance graphic designer with a passion for creating logos."
+					text: "Freelance graphic designer with a passion for creating logos"
 				},
 				description2: {
 					text2: "thirtysat@gmail.com"
