@@ -99,7 +99,7 @@ new Vue({
 					label: "Twitter"
 				},
 				{
-					url: "https://forms.gle/UU661dn9VWyF99Fw5",
+					url: "https://kutt.it/send_brief",
 					label: "Let's Get Work :)"
 				}
 			]
