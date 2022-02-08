@@ -99,7 +99,7 @@ new Vue({
 					label: "Twitter"
 				},
 				{
-					url: "https://forms.gle/oVuazdsyZ8dF8f447",
+					url: "https://forms.gle/UU661dn9VWyF99Fw5",
 					label: "Let's Get Work :)"
 				}
 			]
