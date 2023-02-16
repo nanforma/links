@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Cantarell&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
+@font-face {
+  font-family: namu;
+  src: url('font/NAMU-1750.woff') format("woff");
+  }
 /***************
  * DO NOT EDIT *
  ***************/
@@ -24,12 +28,12 @@ html {
 body {
   background: #080808;
   color: #fff;
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   overflow-x: hidden;
 }
 
 article {
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   min-height: 100vh;
 }
 article.hidden {
@@ -109,19 +113,19 @@ article [data-links] li a [data-button-bg] {
   display: block;
   opacity: 0;
   transform: scale(0) rotateZ(-30deg);
-  transition: all 0.8s 1.3s;
+  transition: all 0.8s 1.5s;
 }
 [data-skin=SKIN_NAME] [data-avatar-container] [data-emblem] {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0) rotateZ(0);
-  width: 11rem;
-  height: 11rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   color: #fff;
-  -webkit-animation: spinZ 20s linear infinite;
-          animation: spinZ 20s linear infinite;
+  -webkit-animation: spinZ 30s linear infinite;
+          animation: spinZ 30s linear infinite;
   text-align: center;
 }
 [data-skin=SKIN_NAME] [data-avatar-container] [data-emblem] span {
@@ -133,7 +137,7 @@ article [data-links] li a [data-button-bg] {
   bottom: 0;
   text-transform: uppercase;
   font-size: 0.9rem;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Space Grotesk', sans-serif;
   transition: all 0.5s cubic-bezier(0, 0, 0, 1);
   color: #fff;
 }
@@ -163,7 +167,7 @@ article [data-links] li a [data-button-bg] {
 [data-skin=SKIN_NAME] [data-profile-container] {
   margin-bottom: 1rem;
   opacity: 0;
-  transition: all 0.5s 1s;
+  transition: all 1.5s 1s;
 }
 [data-skin=SKIN_NAME] [data-profile-container].active {
   opacity: 1;
@@ -173,7 +177,7 @@ article [data-links] li a [data-button-bg] {
   background: #fff;
   height: 0.125rem;
   width: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   display: block;
 }
 [data-skin=SKIN_NAME] [data-profile-container] [data-username] {
@@ -191,7 +195,7 @@ article [data-links] li a [data-button-bg] {
   max-width: calc(100% - 10rem );
 }
 [data-skin=SKIN_NAME] [data-links] {
-  margin: 0 0 2rem 0;
+  margin: 0 0 3rem 0;
 }
 [data-skin=SKIN_NAME] [data-links] li {
   margin: 0;
@@ -203,7 +207,7 @@ article [data-links] li a [data-button-bg] {
   transform: translate3d(0, 4.5rem, 0) rotateY(20deg);
   transform-origin: 0 0;
   opacity: 0;
-  padding: 0;
+  padding: 0.05rem;
   text-align: left;
   white-space: nowrap;
   overflow-x: auto;
@@ -214,14 +218,13 @@ article [data-links] li a [data-button-bg] {
   color: transparent;
   font-weight: 900;
   line-height: 0.9;
-  font-size: 4rem;
+  font-size: 3rem;
   transition: all 0.2s;
   display: block;
-  font-family: 'Big Shoulders Display', cursive;
-  font-weight: 900;
+  font-family: 'namu';
   text-transform: uppercase;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
-  transition: all 0.3s;
+  transition: all 1.3s;
 }
 [data-skin=SKIN_NAME] [data-links] li:nth-of-type(1) a {
   transition-delay: 0s;
