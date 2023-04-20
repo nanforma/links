@@ -95,9 +95,6 @@ new Vue({
 					label: "Twitter"
 				},
 				{
-					label: "-"
-				},
-				{
 					url: "https://branition.com/thirtysat",
 					label: "Logo Store"
 				},
