@@ -91,12 +91,15 @@ new Vue({
 					label: "Behance"
 				},
 				{
-					url: "https://instagram.com/thirtysat/",
-					label: "Instagram"
-				},
-				{
 					url: "https://twitter.com/thirtysat",
 					label: "Twitter"
+				},
+				{
+					label: "-"
+				},
+				{
+					url: "https://branition.com/thirtysat",
+					label: "Logo Store"
 				},
 				{
 					url: "https://fiverr.com/share/NkwdGN",
