@@ -91,10 +91,6 @@ new Vue({
 					label: "Behance"
 				},
 				{
-					url: "https://twitter.com/thirtysat",
-					label: "Twitter"
-				},
-				{
 					url: "https://branition.com/thirtysat",
 					label: "Logo Store"
 				},
