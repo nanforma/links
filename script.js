@@ -95,7 +95,7 @@ new Vue({
 					label: "Logo Store"
 				},
 				{
-					url: "https://fiverr.com/share/NkwdGN",
+					url: "https://forms.gle/thLK2LjVit2amDFLA",
 					label: "Let's Get Work :)"
 				}
 			]
